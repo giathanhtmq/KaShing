@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Workshop2">
+  <Resource auth="container"
+            driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+            name="DBCon" password="321"
+            type="javax.sql.DataSource"
+            url="jdbc:sqlserver://localhost:1433;databaseName=JavaWebDB;instanceName=ThanhPG" username="sa">
+    </Resource>
+</Context>
